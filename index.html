@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find your way</title>
+  <!-- icon -->
+  <link rel="icon" type="image/png" href="./images/title_icon.png">
+
+  <!-- css -->
+   <link rel="stylesheet" href="./style.css">
+
+   <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+   <!-- font awesome icons library cdn (content delivery network ) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <!-- header -->
+    <section class="header bg-color-red position-relative">
+        <nav class="nav-bar d-flex align-items-center justify-content-between">
+          <!-- logo -->
+          <div class="logo">
+            <img src="./images/ll.png" alt="">
+          </div>
+          <div>
+            <!-- nav-bar -->
+            <na class="navbar navbar-expand-lg ">
+    <div class="container-fluid ">
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="container-fluid d-flex align-items-center justify-content-center bg-color-red">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2  mb-lg-0 gap-5">
+          <li>
+            Home
+          </li>
+         <div class="dropdown">
+          <li class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Tours
+          </li>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Tour</a></li>
+            <li><a class="dropdown-item" href="#">Tour Details</a></li>
+            <li><a class="dropdown-item" href="#">Ongoing Packages</a></li>
+          </ul>
+         </div>
+
+         <div class="dropdown">
+          <li class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Destinations
+          </li>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Our Destinations</a></li>
+            <li><a class="dropdown-item" href="#">Destination details</a></li>
+          </ul>
+         </div>
+
+        
+          <li>
+          Gallery
+          </li>
+         
+          <li>
+            News
+          </li>
+         
+          <li>
+            Contact Us
+          </li>
+        </ul>
+        </div>
+    </div>
+    
+      
+    </div>
+  </na>
+          </div>
+        </nav>
+    </section>
+<!-- bg-image -->
+    <section class="bg-image d-flex align-items-center justify-content-center">
+
+      <div class="text-center text-white">
+        <h1>Explore The <br>Global Worlds</h1>
+        <p>Lorem ipsum dolor sit, amet  nihil est excepturi ratione praesentium.</p>
+      </div>
+    </section>
+
+    <!--  search -->
+      <section>
+        <div class="container position-relative">
+  <div class="search-bar p-4 bg-white shadow rounded-pill d-flex flex-wrap justify-content-between align-items-center">
+    
+    <div class="d-flex align-items-center gap-2">
+      <i class="bi bi-geo-alt"></i>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Destination
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">International </a></li>
+          <li><a class="dropdown-item" href="#">Domestic</a></li>
+          <li><a class="dropdown-item" href="#">Other</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center gap-2">
+      <i class="bi bi-person-walking"></i>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Trip Types
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Budget Travel</a></li>
+          <li><a class="dropdown-item" href="#">Child Friendiy</a></li>
+          <li><a class="dropdown-item" href="#">Home Stay</a></li>
+          <li><a class="dropdown-item" href="#">Natural walk</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center gap-2">
+      <i class="bi bi-bicycle"></i>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Activity
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Cycling</a></li>
+          <li><a class="dropdown-item" href="#">Hiking</a></li>
+          <li><a class="dropdown-item" href="#">Jungle Safiari</a></li>
+          <li><a class="dropdown-item" href="#">Kayaking</a></li>
+          <li><a class="dropdown-item" href="#">Paragliding</a></li>
+          <li><a class="dropdown-item" href="#">Peak climibing</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center gap-2">
+      <i class="bi bi-clock"></i>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          4 Days - 10 Days
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">1-4 Days</a></li>
+          <li><a class="dropdown-item" href="#">4-8 Days</a></li>
+          <li><a class="dropdown-item" href="#">8-12 Days</a></li>
+          <li><a class="dropdown-item" href="#">Custom Range</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="btn btn-primary rounded-pill px-4">
+      Find Your Trip
+    </button>
+
+  </div>
+</div>
+
+      </section>
+<!-- Trendy Travel Locations -->
+      <section class="m-4  p-4">
+        <div class="d-flex align-items-center justify-content-between m-4  p-4">
+         <div>
+           <a href="" class="text-decoration-none">Travil Destinations</a>
+        <h1>Trendy Travel Locations</h1>
+         </div>
+       <div> <button class="btn btn-info rounded-pill">Explore More</button></div>
+        </div>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="position-relative">
+        <img src="https://studyabroad.umbc.edu/wp-content/uploads/sites/29/2020/01/bhutan-1.jpg" class="img-fluid rounded-4" alt="Thimpu, Bhutan"style="height: 300px;">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white rounded-pill px-3 py-1 mb-3 shadow">
+          Thimpu, Bhutan
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="position-relative">
+        <img src="https://www.neverendingvoyage.com/wp-content/uploads/2019/09/kyoto-japan-26.jpg " class="img-fluid rounded-4" alt="Kyoto, Japan" style="height: 300px;">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white rounded-pill px-3 py-1 mb-3 shadow">
+          Kyoto, Japan
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="position-relative">
+        <img src="https://somatheeram.net/images/jadayupara-kollam.png" class="img-fluid rounded-4" alt="Jadayupara, Kerala"style="height: 300px;">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white rounded-pill px-3 py-1 mb-3 shadow">
+          Jadayupara, Kerala
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="position-relative">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkTleo3sifiCaR0RiQ_471j56UzHAYdwv_A&s" class="img-fluid rounded-4" alt="Vienna, Australia" style="height: 300px;">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white rounded-pill px-3 py-1 mb-3 shadow">
+          Vienna, Australia
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="position-relative">
+        <img src="https://afar.brightspotcdn.com/dims4/default/5896a05/2147483647/strip/false/crop/3000x2247+0+0/resize/1486x1113!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb2%2Ff4%2F9a1ebe3f427f8e5eb937f8df8998%2Ftravelguides-maldives-videomediastudioeurope-shutterstock.jpg" class="img-fluid rounded-4" alt="Maldives" style="height: 300px;">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white rounded-pill px-3 py-1 mb-3 shadow">
+          Maldives
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="position-relative" >
+        <img src="https://www.aljazeera.com/wp-content/uploads/2017/10/10448ee6c8da48af9f9a358218dd35e5_18.jpeg?resize=770%2C513&quality=80" class="img-fluid rounded-4" alt="   Taj Mahal, India"style="height: 300px;">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white rounded-pill px-3 py-1 mb-3 shadow">
+          Taj Mahal, India
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      </section>
+<!--About  -->
+      <section class="py-5 about-section">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left image -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="image-wrapper">
+          <img src="https://static.wixstatic.com/media/d32a8d_72c27f9b8080444489a676acb0bed14f~mv2.jpg/v1/fill/w_742,h_716,fp_0.46_0.57,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Steve%26Phuong.jpg" class="img-fluid rounded-4" alt="Traveler">
+          
+        </div>
+      </div>
+      
+      <!-- Right content -->
+      <div class="col-lg-6">
+        <span class="text-primary fw-semibold">About Find Your Way Agency</span>
+        <h2 class="fw-bold display-5">Our Journey Memorable <br> Adventures Worldwide</h2>
+        <p class="text-muted">We offer carefully curated destinations and tours that capture the true essence of location, ensuring you experience. Our attraction pass save you more than buying individual tickets for your tour package system.</p>
+        
+        <div class="quote-box p-3 my-3 rounded-3">
+          <strong>“Etiam ac tortor id purus commodo vulputate. Vestibulum porttitor erat felis and sed vehicula tortor malesuada gravida”</strong>
+        </div>
+        
+        <div class="row">
+          <div class="col-6 mb-2">
+            <i class="bi bi-check2-circle text-primary"></i> Trusted, Local Travel Experts
+          </div>
+          <div class="col-6 mb-2">
+            <i class="bi bi-check2-circle text-primary"></i> Flexible, Hassle-Free Bookings
+          </div>
+          <div class="col-6 mb-2">
+            <i class="bi bi-check2-circle text-primary"></i> Real-Time Itinerary Updates
+          </div>
+          <div class="col-6 mb-2">
+            <i class="bi bi-check2-circle text-primary"></i> Trusted, Local Travel Experts
+          </div>
+           <div class="col-6 mb-2">
+            <i class="bi bi-check2-circle text-primary"></i> Flexible, Hassle-Free Bookings
+          </div>
+          <div class="col-6 mb-2">
+            <i class="bi bi-check2-circle text-primary"></i> Real-Time Itinerary Updates
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+<!--Footer  -->
+<footer class="footer-section py-5">
+  <div class="container">
+    <div class="row gy-4">
+      
+      <!-- Left: Logo + Contact -->
+      <div class="col-lg-4">
+        <div class="mb-3 d-flex align-items-center">
+          <img src="./images/title_icon.png" alt="Travil" style="height: 40px;">
+          <h4 class="ms-2 mb-0">Find Your Way</h4>
+        </div>
+        <div class="d-flex align-items-center mb-2">
+          <div class="icon-box me-2">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <div>
+            <div>Call Us</div>
+            <strong>+91 97 85 45 00 05</strong>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mb-3">
+          <div class="icon-box me-2">
+            <i class="bi bi-envelope-fill"></i>
+          </div>
+          <div>
+            <div>Mail Us</div>
+            <strong>findyourway@gmail.Com</strong>
+          </div>
+        </div>
+        <p>Follow US On</p>
+        
+        <div class="d-flex gap-2">
+       <i class="fa-brands fa-facebook fa-2xl"></i>
+         <i class="fa-brands fa-square-instagram fa-2xl"></i>
+        <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-lg-2">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">24/7 Support</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Tour Places</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+
+      <!-- About Travil -->
+      <div class="col-lg-2">
+        <h5>About</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Legal Notice</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+          <li><a href="#">Contact Us</a></li>
+          </ul>
+      </div>
+
+      <!-- Gallery -->
+      <div class="col-lg-4">
+        <h5>Gallery</h5>
+        <div class="row g-2">
+          <div class="col-4"><img src="https://i.pinimg.com/736x/30/13/26/301326766b8181b8290c3b0ed6ab99d3.jpg" class="img-fluid rounded" alt="Gallery" style="height: 90px; width: 100%;" ></div>
+          <div class="col-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8T8qEJIcNcq4jsC4Cq2ycOk1Y8o_QgJtDB4dqDMewD2RyZor6iW7tNud7GxAwuKqSsDE&usqp=CAU" class="img-fluid rounded" alt="Gallery" style="height: 90px;"></div>
+          <div class="col-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV4-2kWi4vgRu4xqRSQHDPY2JAzx369COtog&s" class="img-fluid rounded" alt="Gallery" style="height: 90px; width: 100%;"></div>
+          <div class="col-4"><img src="https://imageio.forbes.com/blogs-images/allisonolms/files/2017/03/AdvWom-26.-Marianne-Hook-raft.jpg?height=450&width=640&fit=bounds" class="img-fluid rounded" alt="Gallery" style="height: 90px; width: 100%;"></div>
+          <div class="col-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2PMVbmRX072qlRD2vFF44A04KI91DpTqPrbwsHn_yavCRTZk_O8yVn6T3LkbRwMehQJQ&usqp=CAU" class="img-fluid rounded" alt="Gallery" style="height: 90px; width: 100%;"></div>
+          <div class="col-4"><img src="https://journeywoman.com/wp-content/uploads/2025/04/Adventure-Trips-for-Women-Woman-Hiking.jpg" class="img-fluid rounded" alt="Gallery" style="height: 90px; width: 100%;"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="d-flex justify-content-between pt-4 mt-4 border-top">
+      <small> All rights reserved. © Find Your Way  </small>
+      <div>
+        <a href="#" class="me-3">Privacy</a>
+        <a href="#" class="me-3">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>  
+</html>

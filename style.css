@@ -1,0 +1,57 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 100%;
+    height: 130px;
+}
+
+.logo img{
+    width: 90px;
+    height:130px;
+}
+
+
+.bg-image{
+    background-image: url('./images/001.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+.dropdown-toggle {
+  border: none;
+  background: transparent;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.search-bar {
+  margin-top: -45px; 
+}
+.footer-section {
+  background-color: #f4f3ff;
+}
+
+.footer-section a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.icon-box {
+  background: #ff5e57;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
