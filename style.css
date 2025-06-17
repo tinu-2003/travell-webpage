@@ -29,7 +29,7 @@ body{
 .btn:focus {
   box-shadow: none;
 }
-.search-bar {
+.bar {
   margin-top: -45px; 
 }
 .footer-section {
